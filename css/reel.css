@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    background: #eee;
+    margin: auto;
+}
+
+body{
+    height: 812px;
+    width: 375px;
+}
+
+.reel{
+    width: 390px;
+    /* height: 100vh; */
+}
+
+.upper-nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    margin-top: 10px;
+    width: 100%;
+    z-index: 10;
+}
+
+.neighborhoodSearch{
+    width: 50%;
+    height: 36px;
+    margin: 0 auto;
+    border:solid 1px #555;
+    border-radius: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.neighborhoodSearch a{
+    text-decoration: none;
+    color: #555;
+}
+
+.video video{
+    margin-top: 50px;
+    /* height: 812px; */
+}
+.main-text{
+    position: relative;
+}
+.text{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+
+.text p{
+    font-size: 13px;
+}
+.reaction-btn{
+    position: relative;
+}
+.reaction{
+    position: absolute;
+    right: 20px;
+    bottom: 7em;
+}
+.fa-heart{
+    color: white;
+}
+.footer-nav{
+    background-color: white;
+    padding: 10px 0 25px 0;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-bottom: 25px; */
+}
+
+.bm1{
+    color: white;
+}
+
+#dialog{
+    position: fixed;
+    z-index: 100;
+    bottom: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.bookmark-noti{
+    display: none;
+}
+.more{
+    font-size: 12px;
+}
+
+#bookmark-count{
+    position: relative;
+}
+#bookmark-count-no{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: orange;
+    /* display: none; */
+}
+
+@media screen and (min-width: 960px) {
+    *{
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html{
+        scroll-behavior: smooth;
+        height: 844px;
+        width: 390px;
+        margin: 0 auto;
+    }
+    
+    body{
+        height: 812px;
+        width: 390px;
+        margin: auto;
+    }
+    
+    .reel{
+        width: 390px;
+        margin: auto;
+        /* height: 100vh; */
+    }
+    
+    .upper-nav{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        margin-top: 10px;
+        width: 390px;
+        z-index: 10;
+    }
+    
+    .neighborhoodSearch{
+        width: 50%;
+        height: 36px;
+        margin: 0 auto;
+        border:solid 1px #555;
+        border-radius: 30px;
+        line-height: 36px;
+        text-align: center;
+    }
+    
+    .neighborhoodSearch a{
+        text-decoration: none;
+        color: #555;
+    }
+    
+    .video video{
+        margin-top: 50px;
+        /* height: 812px; */
+    }
+    .main-text{
+        position: relative;
+    }
+    .text{
+        position: absolute;
+        bottom: 0;
+        padding: 10px;
+    }
+    
+    .text p{
+        font-size: 13px;
+    }
+    .reaction-btn{
+        position: relative;
+    }
+    .reaction{
+        position: absolute;
+        right: 20px;
+        bottom: 7em;
+    }
+    .fa-heart{
+        color: white;
+    }
+    .footer-nav{
+        background-color: white;
+        padding: 10px 0 25px 0;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        width: 390px;
+        justify-content: space-evenly;
+        align-items: center;
+        /* margin-bottom: 25px; */
+    }
+    
+    .bm1{
+        color: white;
+    }
+    
+    #dialog{
+        position: fixed;
+        z-index: 100;
+        bottom: 70px;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    
+    .bookmark-noti{
+        display: none;
+    }
+    .more{
+        font-size: 12px;
+    }
+    
+    #bookmark-count{
+        position: relative;
+    }
+    #bookmark-count-no{
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+        color: orange;
+        /* display: none; */
+    }
+}

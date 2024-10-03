@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIMA</title>
+  <!-- API -->
+  <link href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" rel="stylesheet">
+  <link href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" rel="stylesheet">
+  <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+  <!-- footer -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+  <!-- CSS -->
+  <link href="css/ress.css" rel="stylesheet">
+  <link href="css/openmap.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+
+</head>
+<body>
+  <div id="mapid">
+    <header>
+      <button class="backBtn" onclick="goBack()">
+        <div class="backBorder"></div>
+      </button>
+      <button class="rootBtn" id="rootBtnId" onclick="root()">ルート作成</button>
+      <button class="currentBtn" id="currentBtnId" onclick="current()">
+        <div class="currentImg"></div>
+      </button>
+      <div class="reductionWrap">
+        <div class="reductionBtn">
+          <div class="rBtn"></div>
+        </div>
+        <ul id="taskList">
+        </ul>
+      </div>
+    </header>
+  </div>
+
+  <footer class="footer">
+    <nav class="footer-nav">
+        <div>
+          <a class="text-black" href="top.html"><i class="fs-4 fa-solid fa-house"></i></a>
+        </div>
+        <div>
+          <a class="text-black" href="map.html"><i class="fs-4 fa-regular fa-map"></i></a>
+        </div>
+        <div>
+            <a class="text-black" href="reel.html"><i class="fs-4 fa-regular fa-circle-play"></i></a>
+        </div>
+        <div>
+          <a class="text-black" href="#"><i class="fs-4 fa-solid fa-folder-open"></i></a>
+        </div>
+        <div id="bookmark-count">
+          <a class="text-black" href="#"><i class="fs-4 fa-solid fa-bookmark" id="bookmark"></i></a>
+            <span class id="bookmark-count-no">0</span>
+        </div>
+    </nav>
+  </footer>
+  <script src="js/backBtn.js"></script>
+  <script src="js/openmap.js"></script>
+  <script src="js/leaflet.sprite.js"></script>
+</body>
+</html>

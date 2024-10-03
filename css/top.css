@@ -1,0 +1,190 @@
+.mainIMG {
+  width: 100vw;
+  height: 60vh;
+  background-image: url(../img/json.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contrast {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(80, 80, 80, 0.4);
+}
+.circle{
+  width: 100%;
+  height: 90%;
+  background-image: url(../img/circle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contrast ul {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: end;
+}
+.contrast li {
+  list-style: none;
+  width: 30px;
+  height: 30px;
+  margin: 0px 0px 10px 12px;
+  background-color: rgba(20, 20, 20, 0.4);
+  border-radius: 50%;
+  opacity: 80%;
+}
+.contrast .ImgBtn {
+  background-image: url(../img/calendar.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contrast .albumBtn {
+  background-image: url(../img/image.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contrast .CalendarBtn {
+  background-image: url(../img/library.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CalendarWrap {
+  width: 100%;
+  height: 40vh;
+  overflow: scroll;
+  background: #F7F7F7;
+}
+.dayBox ul li {
+  list-style: none;
+  width: 360px;
+  height: 80px;
+  background: #fff;
+  border-radius: 5px;
+  margin: 10px auto;
+  box-shadow: #ddd 3px 3px 1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.center{
+  width: 100%;
+  padding: 0;
+}
+.dayBox ul li .dayTextWrap h2 {
+  font-size: 1.6rem;
+}
+.CalendarWrap .dayBox ul li .dayTextWrap p {
+  font-size: 0.8rem;
+  color: #555;
+}
+.CalendarWrap .dayBox ul li p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.CalendarWrap .dayBox ul li p span {
+  font-size: 1.8rem;
+}
+
+@media screen and (min-width: 960px) {
+  body{
+    width: 390px;
+  }
+  .mainIMG {
+    width: 390px;
+    height: 60vh;
+    background-image: url(../img/json.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contrast {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(80, 80, 80, 0.4);
+  }
+  .circle{
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .contrast ul {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: end;
+  }
+  .contrast li {
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    margin: 0px 0px 10px 12px;
+    background-color: rgba(20, 20, 20, 0.4);
+    border-radius: 50%;
+    opacity: 80%;
+  }
+  .contrast .ImgBtn {
+    background-image: url(../img/calendar.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contrast .albumBtn {
+    background-image: url(../img/image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contrast .CalendarBtn {
+    background-image: url(../img/library.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .CalendarWrap {
+    width: 100%;
+    height: 40vh;
+    overflow: scroll;
+    background: #F7F7F7;
+  }
+  .dayBox ul li {
+    list-style: none;
+    width: 360px;
+    height: 80px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px auto;
+    box-shadow: #ddd 3px 3px 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .center{
+    width: 100%;
+    padding: 0;
+  }
+  .dayBox ul li .dayTextWrap h2 {
+    font-size: 1.6rem;
+  }
+  .CalendarWrap .dayBox ul li .dayTextWrap p {
+    font-size: 0.8rem;
+    color: #555;
+  }
+  .CalendarWrap .dayBox ul li p {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .CalendarWrap .dayBox ul li p span {
+    font-size: 1.8rem;
+  }
+}

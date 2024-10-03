@@ -1,0 +1,447 @@
+#mapid{
+  width: 100%;
+  height: 844px;
+}
+
+p{
+  margin: 0;
+}
+
+.backBtn{
+  top: 10px;
+  left: 10px;
+  position: fixed;
+  z-index: 401;
+  background: #fff;
+  box-shadow: 2px 2px 3px #888;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.backBorder{
+  margin: 0px 0px 0px 16px;
+  border-radius: 1px;
+  width:16px;
+  height: 16px;
+  border-bottom: 3px solid #313131;
+  border-left: 3px solid #313131;
+  transform: rotate(45deg);
+}
+
+header{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 401;
+}
+
+.rootBtn{
+  margin: 10px auto 0px;
+  height: 40px;
+  width: 45%;
+  background: #fff;
+  box-shadow: 2px 2px 3px #888;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.currentBtn{
+  top: 10px;
+  right: 10px;
+  position: fixed;
+  z-index: 401;
+  background: #fff;
+  box-shadow: 2px 2px 3px #888;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.currentImg{
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/cursor2.svg);
+  background-size: cover;
+}
+
+.currentImg2{
+  background-image: url(../img/cursor1.svg);
+  background-size: cover;
+}
+
+span{
+  font-size: 1.2rem;
+  color: #555;
+}
+
+#pId{
+  margin: 5px 0;
+  color: #999;
+}
+
+.detailedWrap{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 2px 0 0;
+}
+
+#detailedIdWrap{
+  color: #fff;
+}
+
+.detailedBtn{
+  width: 48%;
+  height: 100%;
+  border-radius: 10px;
+  text-decoration: none;
+  background: #FF9933;
+}
+
+.addBtn{
+  color: #fff;
+  width: 48%;
+  height: 30px;
+  border-radius: 10px;
+  background: #57BAD9;
+}
+
+.leaflet-routing-alt {
+  height: 50px;
+  display: none;
+}
+
+.leaflet-control-zoom{
+  display: none;
+}
+
+.icon {
+  filter: hue-rotate(140deg);
+}
+
+/* .leaflet-popup-content-wrapper{
+  padding: 0px;
+  margin: 0px;
+} */
+/* .leaflet-popup-content{
+  padding: 0px;
+  margin: 10px;
+} */
+
+.leaflet-popup-close-button{
+  display: none;
+}
+
+.reductionWrap{
+  background: #fbfbfb;
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  bottom: 60px;
+  border-radius: 30px 30px 0 0;
+  padding: 0px;
+  animation: ease-in-out;
+}
+
+#taskList{
+  display: flex;
+  flex-flow:column;
+  order: -1;
+  margin-top: 30px;
+  width: 100%;
+  height: 270px;
+  padding: 0;
+  overflow-y:scroll;
+}
+#taskList li{
+  margin: 5px auto;
+}
+
+.reductionBtn{
+  width: 100%;
+  height: 30px;
+  list-style: none;
+  display: flex;
+  position: absolute;
+}
+
+.rBtn{
+  margin: auto;
+  width: 10%;
+  height: 4px;
+  border-radius: 3px;
+  background: #A6A6A6;
+}
+
+.spotList{
+  font-size: 1rem;
+  list-style: none;
+  margin: 0 auto;
+  display: flex;
+  width: 80%;
+  height: 70px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #b3b3b3;
+  background: #fff;
+}
+
+.spotContent{
+  margin: 0 5px;
+}
+
+.spotGeolocation{
+  font-size: 1rem;
+  list-style: none;
+  margin: 0 auto;
+  width: 80%;
+  height: 40px;
+  padding: 8px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #b3b3b3;
+  background: #fff;
+}
+
+.spotAddress{
+  font-size: 0.6rem;
+}
+
+.spotImg{
+  width: 80px;
+  height: 60px;
+}
+
+.spotImg img{
+  border-radius: 4px;
+}
+
+
+@media screen and (min-width: 960px) {
+  body{
+    width: 390px;
+  }
+  #mapid{
+    width: 390px;
+    height: 844px;
+  }
+  
+  p{
+    margin: 0;
+  }
+  
+  .backBtn{
+    top: 10px;
+    left: 37%;
+    position: fixed;
+    z-index: 401;
+    background: #fff;
+    box-shadow: 2px 2px 3px #888;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  .backBorder{
+    margin: 0px 0px 0px 16px;
+    border-radius: 1px;
+    width:16px;
+    height: 16px;
+    border-bottom: 3px solid #313131;
+    border-left: 3px solid #313131;
+    transform: rotate(45deg);
+  }
+  
+  header{
+    display: flex;
+    position: fixed;
+    width: 390px;
+    z-index: 401;
+  }
+  
+  .rootBtn{
+    margin: 10px auto 0px;
+    height: 40px;
+    width: 45%;
+    background: #fff;
+    box-shadow: 2px 2px 3px #888;
+    border-radius: 20px;
+    font-size: 1rem;
+  }
+  
+  .currentBtn{
+    top: 10px;
+    right: 38%;
+    position: fixed;
+    z-index: 401;
+    background: #fff;
+    box-shadow: 2px 2px 3px #888;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .currentImg{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/cursor2.svg);
+    background-size: cover;
+  }
+  
+  .currentImg2{
+    background-image: url(../img/cursor1.svg);
+    background-size: cover;
+  }
+  
+  span{
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  #pId{
+    margin: 5px 0;
+    color: #999;
+  }
+  
+  .detailedWrap{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 2px 0 0;
+  }
+  
+  #detailedIdWrap{
+    color: #fff;
+  }
+  
+  .detailedBtn{
+    width: 48%;
+    height: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #FF9933;
+  }
+  
+  .addBtn{
+    color: #fff;
+    width: 48%;
+    height: 30px;
+    border-radius: 10px;
+    background: #57BAD9;
+  }
+  
+  .leaflet-routing-alt {
+    height: 50px;
+    display: none;
+  }
+  
+  .leaflet-control-zoom{
+    display: none;
+  }
+  
+  .icon {
+    filter: hue-rotate(140deg);
+  }
+  
+  /* .leaflet-popup-content-wrapper{
+    padding: 0px;
+    margin: 0px;
+  } */
+  /* .leaflet-popup-content{
+    padding: 0px;
+    margin: 10px;
+  } */
+  
+  .leaflet-popup-close-button{
+    display: none;
+  }
+  
+  .reductionWrap{
+    background: #fbfbfb;
+    position: fixed;
+    width: 390px;
+    height: 30px;
+    bottom: 60px;
+    border-radius: 30px 30px 0 0;
+    padding: 0px;
+    animation: ease-in-out;
+  }
+  
+  #taskList{
+    display: flex;
+    flex-flow:column;
+    order: -1;
+    margin-top: 30px;
+    width: 100%;
+    height: 270px;
+    padding: 0;
+    overflow-y:scroll;
+  }
+  #taskList li{
+    margin: 5px auto;
+  }
+  
+  .reductionBtn{
+    width: 100%;
+    height: 30px;
+    list-style: none;
+    display: flex;
+    position: absolute;
+  }
+  
+  .rBtn{
+    margin: auto;
+    width: 10%;
+    height: 4px;
+    border-radius: 3px;
+    background: #A6A6A6;
+  }
+  
+  .spotList{
+    font-size: 1rem;
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    height: 70px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #b3b3b3;
+    background: #fff;
+  }
+  
+  .spotContent{
+    margin: 0 5px;
+  }
+  
+  .spotGeolocation{
+    font-size: 1rem;
+    list-style: none;
+    margin: 0 auto;
+    width: 80%;
+    height: 40px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #b3b3b3;
+    background: #fff;
+  }
+  
+  .spotAddress{
+    font-size: 0.6rem;
+  }
+  
+  .spotImg{
+    width: 80px;
+    height: 60px;
+  }
+  
+  .spotImg img{
+    border-radius: 4px;
+  }
+}

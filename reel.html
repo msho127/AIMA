@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIMA</title>
+    <link rel="stylesheet" href="css/reel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    
+    <div class="reel" id="reel">
+    
+        <header class="header">
+            <nav class="upper-nav" id="upper-nav">
+                <div class="post">
+                    <i class="fa-solid fa-plus border border-2 border-dark rounded-circle p-2 ms-3"></i>
+                </div>
+                <div class="neighborhoodSearch">
+                    <a href="map.html">周辺のスポットを検索</a>
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass fs-5 p-2 me-3"></i>
+                </div>
+            </nav>
+
+            <div>
+
+                <div class="video">
+                    <video src="video1.mp4" class="w-100 video-pause" autoplay muted></video>
+                </div>
+
+                <div class="reaction-btn">
+
+                    <div class="reaction">
+                        <div>
+                            <i class="fa-solid fa-heart fs-1"></i>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-bookmark bm1 mt-5 fs-1 ms-1"></i>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-message mt-5 fs-1 text-white"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-text text-white">
+                <div class="text">
+    
+                    <h3>動画のタイトル</h3>
+                    <p class="">#デートスポット #ハッシュタグ
+                        金ト十換シオモ獲同どだりが予容ツヤ自分フ知通過香ょほざ集供を市仕ンて要投朝献ユ就一くぼ鮮文ぐた道選移石もっぶ。
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <div>
+
+            <div class="video2">
+                <video src="video2.mp4" class="w-100 video-pause" autoplay muted loop></video>
+            </div>
+
+            <div class="reaction-btn">
+                <div class="reaction">
+                    <div>
+                        <i class="fa-solid fa-heart fs-1"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-bookmark bm1 mt-5 fs-1 ms-1"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-message mt-5 fs-1 text-white"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-text text-white">
+                <div class="text">
+    
+                    <h3>動画のタイトル</h3>
+                    <p class="">#デートスポット #ハッシュタグ
+                        金ト十換シオモ獲同どだりが予容ツヤ自分フ知通過香ょほざ集供を市仕ンて要投朝献ユ就一くぼ鮮文ぐた道選移石もっぶ。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+
+            <div class="video3">
+                <video src="video3.mp4" class="w-100 video-pause" autoplay muted loop></video>
+            </div>
+
+            <div class="reaction-btn">
+                <div class="reaction">
+                    <div>
+                        <i class="fa-solid fa-heart fs-1"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-bookmark bm1 mt-5 fs-1 ms-1"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-message mt-5 fs-1 text-white"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-text text-white">
+                <div class="text">
+    
+                    <h3>動画のタイトル</h3>
+                    <p class="">#デートスポット #ハッシュタグ
+                        金ト十換シオモ獲同どだりが予容ツヤ自分フ知通過香ょほざ集供を市仕ンて要投朝献ユ就一くぼ鮮文ぐた道選移石もっぶ。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bookmark-noti">
+
+            <div id="dialog" title="Basic dialog" class="bg-light shadow rounded">
+                <i class="fa-solid fw-bold fa-check border border-2 border-warning rounded-circle p-1" style="color: orange;"></i>
+                <p class="text-black fw-bold mt-3">ブックマーク追加されました</p>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <nav class="footer-nav">
+                <div>
+                    <a href="top.html" class="text-black"><i class="fs-4 fa-solid fa-house"></i></a>
+                </div>
+                <div>
+                    <a href="map.html" class="text-black"><i class="fs-4 fa-regular fa-map"></i></a>
+                </div>
+                <div>
+                    <a href="reel.html" class="text-black"><i class="fs-4 fa-regular fa-circle-play"></i></a>
+                </div>
+                <div>
+                    <a href="#" class="text-black"><i class="fs-4 fa-solid fa-folder-open"></i></a>
+                </div>
+                <div id="bookmark-count">
+                    <a href="#" class="text-black"><i class="fs-4 fa-solid fa-bookmark" id="bookmark"></i></a>
+                    <span id="bookmark-count-no" class="">0</span>
+                </div>
+            </nav>
+        </footer>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        $(".fa-heart").each(function(i){
+            $(".fa-heart").click(function(){
+                $(this).css("color", "red").addClass("animate__animated animate__rubberBand")
+                console.log("heart")
+            })
+        })
+
+        $(".bm1").click(function () {
+            $(".bookmark-noti").css("display", "block")
+            $("#dialog").addClass("animate__animated animate__bounceInUp")
+            
+        })
+
+        $(".bm1").each(function(i){
+
+            $(".bm1").click(function(){
+                $(this).css("color", "orange").addClass("animate__animated animate__jello")
+                console.log("bookmark")
+
+                $("#bookmark").css("color", "orange")
+            })
+        })
+
+
+        let number = 0;
+        $(".bm1").click(function(i){
+            $("#bookmark-count-no").each(function(){
+                number++;
+                $("#bookmark-count-no").text(number)
+            })
+        })
+
+        $(window).scroll(function(){
+            var scrollPosition = $(this).scrollTop();
+
+            var scrollColor = 20;
+
+            if( scrollPosition >= scrollColor){
+                $(".upper-nav").css("color", "white")
+                $(".upper-nav").css("border", "white")
+
+            }else {
+                $(".upper-nav").css("color", "black")
+
+            }
+        })
+
+        $(".fa-xmark").each(function(i){
+            $(".fa-xmark").click(function(){
+                // $("#dialog")
+                $(".bookmark-noti").css("display", "none")
+                
+            })
+            
+        })
+
+        setInterval(function(i){
+            
+            $(".bookmark-noti").hide(100)
+            
+        },5000)
+
+    })
+
+
+    </script>
+</body>
+</html>
