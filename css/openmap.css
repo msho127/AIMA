@@ -220,7 +220,7 @@ span{
 }
 
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 391px) {
   body{
     width: 390px;
   }
